@@ -8,6 +8,8 @@ Tactical combat, gamist approach, based on D&D, PF, and 13A:
 4. PF 1e SRD
 5. PF 2e SRD ?
 
+Make complexity orthogonal to class rather than tied to it. This would allow a simple fighter build that basically attacks each turn and a complex fighter build that has feats, exploits, and maneuvers that give substantial options. It would also allow for a simple or a complex wizard.
+
 When expert, proficiency bonus = Level + 1
 When trained, proficiency bonus = Level
 When untrained, proficiency bonus = Level / 2 (round down)
@@ -64,3 +66,8 @@ Maybe this instead of new power or in addition to new power to avoid losing old 
     - Warlock
     - Warrior
     - Wizard
+
+Cleric Prayers
+Fighter Exploits, Feats, Maneuvers
+Rogue Tricks
+Wizard Spells

@@ -67,6 +67,10 @@ Maybe this instead of new power or in addition to new power to avoid losing old 
     - Warrior
     - Wizard
 
+Features are given.
+Talents are chosen.
+Feats are chosen.
+
 Cleric Prayers
 Fighter Exploits, Feats, Maneuvers
 Rogue Tricks

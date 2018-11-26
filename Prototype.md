@@ -21,7 +21,7 @@ Encounter
 Daily
 Utility
 
-Either specific numbers of each you can use - like 3 encounter powers (and can choose any you have) -or- have 3 differenct encounter powers that can each be used once.
+Either specific numbers of each you can use - like 3 encounter powers (and can choose any you have) -or- have 3 different encounter powers that can each be used once.
 
 At certain levels, change Daily power of certain level or lower to Encounter power.
 Maybe Fireball starts as daily at level 3 but at level 7 can become an encounter power.
@@ -30,41 +30,78 @@ Maybe this instead of new power or in addition to new power to avoid losing old 
 
 | Source & Role | Defender | Controller | Striker   | Leader |
 |---------------|----------|------------|-----------|--------|
-| Arcane        | Templar  | Wizard     | Sorcerer  | Bard   |
+| Arcane        | Templar  | Wizard     | Sorcerer  |        |
 | Divine        | Paladin  |            |           | Cleric |
 | Martial       | Fighter  |            | Rogue     |        |
-| Primal        | Warden   | Ranger     | Barbarian | Shaman |
+| Primal        | Warden   | Ranger (?) | Barbarian | Shaman |
 | ? Eldritch    |          |            |           |        |
 | ? Psychic     |          |            |           |        |
-| ? Shadow      |          |            |           |        |
+| ? Shadow      | Vigilante? |            | Assassin  | Vigilante? |
+| ? Tech        |          |            |           |        |
+| ? Occult      |          |            |           |        |
+
+Arcane Spells
+Divine Prayers
+Martial Exploits, Martial Deeds
+Primal Evocations
+Technological Wonders
+
+Does each set of powers have a single key ability score?
+
+- Tech
+    - Gunslinger (too dependent upon a specific tech?)
+    - Artificer/Artisan (split?)
+    - Alchemist/Apothecary (split?)
+    - Technomancer (too magicky?)
+    - Drone Operator
+    - Roboticist - Leader
+    - Gunslinger - Striker
+    - Artificer - Controller
+    - Engineer - Defender
+    -
 
 - Possible Classes
+    - Alchemist
     - Artificer
+    - Artisan
     - Assassin
     - Avenger
     - Barbarian
-    - Bard
+    - Bard - psychic leader? musical leader?
     - Berserker
+    - Cavalier
     - Captain
+    - Champion
     - Chieftain
     - Cleric
     - Druid
+    - Duelist - Martial Controller?
     - Fighter
+    - Fili - elite Irish poet
     - Knight
     - Lancer
+    - Mage
     - Magister
     - Monk
+    - Ollam/Ollav - Irish lit highest rank of fili
+    - Oracle
     - Pactmage
     - Paladin
-    - Ranger
+    - Ranger (is Ranger the Martial Leader?)
     - Rogue
     - Sage
+    - Seeker
     - Shaman
+    - Skald
     - Sorcerer
+    - Technomancer
     - Templar
+    - Vigilante
+    - Wanderer
     - Warden
     - Warlock
     - Warrior
+    - Witch
     - Wizard
 
 Features are given.
@@ -75,3 +112,38 @@ Cleric Prayers
 Fighter Exploits, Feats, Maneuvers
 Rogue Tricks
 Wizard Spells
+
+What about:
+    d20 + ability score die + skill die + magic item die + buff die
+    so 18-19 is d10, skill may be d6, magic item may be d4, with a d8 buff
+
+    for d20 + d10 + d8 + d6 + d4
+    vs d20 + 5 + 3 + 2 + 4
+
+Defense
+Offense
+Control
+Support
+
+Mortal
+Hero
+...
+...
+Ascension
+Apotheosis
+
+Utilities are Daily?
+
+Make Ability Checks for things you aren't proficient in at disadvantage?
+
+2 Actions + 1 Reaction?
+- Hasted: +1 Action or +1 Reaction
+- Slowed: -2 Actions; or -1 Action and -1 Reaction, no Reactions; cancels Hasted-ish
+- Stunned: -2 Actions, -1 Reaction; overrides Hasted
+- Flat-footed: -2 penalty to AC and Reflex
+- Winded: at or below half HP
+- Recovery: spend to regain HP equal to your Recovery Amount/Value
+- Recovery Amount/Value: a quarter of your max HP
+
+Remove Perception for Gumshoe core clues?
+Only attack once per turn.

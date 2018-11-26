@@ -1,0 +1,17 @@
+---
+rules:
+- Bonus.Attr.AC = min(DEX, INT)
+- Bonus.Attr.AC.Max = 0 if Heavy, 2 if Medium, Unlimited if Light or Unarmored
+- AC = 10 + half Level + Bonus.Armor.AC + Bonus.Armor.Shield + min(Bonus.Attr.AC), Bonus.Attr.AC.Max)
+
+- AC = 10 + half Level + Armor Bonus + Shield Bonus + Attribute Bonus
+- Fortitude = 10 + half Level + Attribute Bonus
+- Reflex = 10 + half Level + Shield Bonus + Attribute Bonus
+- Will = 10 + half Level + Attribute Bonus
+
+- Proficiency Bonus = +1 per tier
+- When not proficient, suffer Incompetence Penalty = Disadvantage; if another effect would add Disadvantage, you cannot make the roll
+- 2 Actions, 1 Reaction per round
+- Only Attack once per turn.
+- Effects lasting one round last until the end of that character's next turn.
+...

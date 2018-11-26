@@ -1,0 +1,56 @@
+---
+class:
+- name: Paladin
+  role: Defender
+  source: Divine
+  hit die: d10
+  recovery: 6
+  alignment: Deity's
+  key ability:
+  - Strength
+  - Charisma
+  feature:
+  - Divine Spellcasting (?)
+  - Divine Struggle
+  - Martial Experience
+  proficiency:
+    weapon:
+    - Simple
+    - Martial
+    armor:
+    - Light
+    - Medium
+    - Heavy
+    shield:
+    - Light
+    - Heavy
+    implement:
+    - Symbol
+    - Weapon
+    skill:
+    - Religion
+    tool:
+feature:
+- name: Divine Spellcasting
+  prerequisite:
+  - Divine
+  fluff: You may select Divine Prayers requiring Implements.
+  rules:
+  - allows Powers from Divine Prayers with Implement
+- name: Divine Struggle
+  fluff: You may select Divine Prayers requiring Weapons.
+  rules:
+  - allows Powers from Divine Prayers with Weapon
+- name: Martial Experience
+  fluff: You may select a Martial Deed as 1 of your At-Will Powers.
+  rules:
+  - allows 1 At-Will Power from Martial Deeds
+- name: Smite Foe
+  fluff: A paladin can call out to her god to aid in her struggle against his enemy's. As a swift action, the paladin chooses one target within sight to smite. If this target is evil, the paladin adds her Charisma bonus (if any) to her attack rolls and adds her paladin level to all damage rolls made against the target of her smite. If the target of smite evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to 2 points of damage per level the paladin possesses. Regardless of the target, smite evil attacks automatically bypass any DR the creature might possess.
+
+In addition, while smite evil is in effect, the paladin gains a deflection bonus equal to her Charisma modifier (if any) to her AC against attacks made by the target of the smite. If the paladin targets a creature that is not evil, the smite is wasted with no effect.
+
+The smite evil effect remains until the target of the smite is dead or the next time the paladin rests and regains her uses of this ability. At 4th level, and at every three levels thereafter, the paladin may smite evil one additional time per day, as indicated on Table: Paladin, to a maximum of seven times per day at 19th level.
+  rules:
+  - allows 1 At-Will Power from Martial Deeds
+...

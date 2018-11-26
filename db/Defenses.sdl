@@ -1,0 +1,7 @@
+defenses {
+  HP equation=`StartingHP + HPPerLevel*Level`
+  AC equation=`10 + Level/2 + max(DEX, INT)`
+  Fortitude equation=`10 + Level/2 + max(STR, CON)`
+  Reflex equation=`10 + Level/2 + max(DEX, INT)`
+  Will equation=`10 + Level/2 + max(WIS, CHA)`
+}

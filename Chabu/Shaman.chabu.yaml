@@ -1,0 +1,58 @@
+---
+classes:
+- name: Shaman
+  role: Leader
+  source: Primal
+  hit die: d8
+  recovery: 4
+  alignment: Any
+  key ability:
+  - Wisdom
+  feature:
+  - Primal Spellcasting
+  - Companion Spirit
+  proficiency:
+    weapon:
+    - Simple
+    - Longspear
+    armor:
+    - Light
+    - Medium
+    implement:
+    - Totem
+    skill:
+    - Nature
+    - 3 of:
+      - Arcana
+      - Athletics
+      - Endurance
+      - Healing
+      - Insight
+      - Perception
+      - Religion
+      - Survival
+    tool:
+    - Herbalism Kit
+feature:
+- name: Primal Spellcasting
+  prerequisite:
+  - Primal
+  fluff: You may select Primal Evocations requiring Implements.
+  rules:
+  - allows Powers from Primal Evocations with Implement
+- name: Companion Spirit
+  prerequisite:
+  - Shaman
+  fluff: You gain a companion spirit.
+  selection: Feature (Companion Spirit)
+- name: Battle (Companion Spirit)
+  prerequisite:
+  - Shaman
+  - Companion Spirit
+  fluff: A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of battle always seems to cling to her body. When she calls upon one of this spirit's abilities, she grows in stature---becoming taller and more muscular, with a grimace of rage stretching across her face.
+- name: Heavens (Companion Spirit)
+  prerequisite:
+  - Shaman
+  - Companion Spirit
+  fluff: A shaman who selects the heavens spirit has eyes that sparkle like starlight, giving her an aura of otherworldliness. When she calls upon one of this spirit's abilities, her eyes turn pitch black and the colors around her drain for a brief moment.
+...

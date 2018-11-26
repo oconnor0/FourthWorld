@@ -1,0 +1,47 @@
+---
+class:
+- name: Templar
+  role: Defender
+  source: Arcane
+  hit die: d10
+  recovery: 6
+  alignment: Any
+  key ability:
+  - Strength
+  - Intelligence
+  feature:
+  - Arcane Spellcasting
+  - Martial Experience
+  - name: Templar's Threat
+    fluff: When you hit an enemy with an attack, that enemy is provoked by you until you end your turn unengaged from them.
+  - name: Templar's Blast
+    fluff: When an enemy you engage attacks an ally without attacking you, that enemy suffers Level + INT plasmic damage (2 + INT + half Level?).
+  - name: Templar's Brilliance
+    fluff: You make Arcane attacks using your Intelligence. (And Martial?)
+  proficiency:
+    weapon:
+    - Simple
+    - Martial
+    armor:
+    - Light
+    - Medium
+    - Heavy
+    shield:
+    - Light
+    - Heavy
+    implement:
+    - Weapon
+    - Shield
+    skill:
+    - Arcana
+    tool:
+feature:
+- name: Arcane Spellcasting
+  fluff: You may select Arcane Spells requiring Implements.
+  rules:
+  - allows Powers from Arcane Spells with Implement
+- name: Martial Experience
+  fluff: You may select a Martial Deed as 1 of your At-Will Powers.
+  rules:
+  - allows 1 At-Will Power from Martial Deeds
+...

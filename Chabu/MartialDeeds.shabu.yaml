@@ -1,0 +1,67 @@
+---
+power:
+- name: Aim
+  keywords: Martial, Deed, Weapon, Ranged, Utility
+  level: 0
+  rarity: Common
+  require: Ranged Weapon
+  action: 1
+  range: Self
+  effect: The next ranged weapon attack roll you make this round gains a +2 power bonus.
+- name: Double Strike
+  keywords: Martial, Weapon, Deed, Melee, Attack
+  level: 0
+  rarity: Common
+  require: 2 One-handed Melee Weapons
+  action: 1 Major
+  range: Melee Weapon
+  target: 1 or 2 creatures
+  twice:
+    attack: STR - 2 vs. AC
+    hit: WPN damage
+  special: The first attack is with your main hand, the second with your off hand.
+- name: Twin Shot
+  keywords: Martial, Weapon, Deed, Ranged, Attack
+  level: 0
+  rarity: Common
+  require: Ranged Weapon
+  action: 1 Major
+  range: Ranged Weapon
+  target: 1 or 2 creatures
+  twice:
+    attack: DEX - 2 vs. AC
+    hit: WPN damage
+- name: Off-hand Strike
+  keywords: Martial, Weapon, Deed, Melee, Attack
+  level: 0
+  rarity: Common
+  require: 2 One-handed Melee Weapons
+  action: 1 Major
+  range: Melee Weapon
+  target: 1 or 2 creatures
+  attack: STR vs. AC
+  hit:
+    damage: WPN + STR
+    attack: STR vs. AC
+    hit: WPN + STR damage
+- name: Beat Back
+  keywords: Martial, Weapon, Deed, Melee, Attack
+  level: 0
+  rarity: Common
+  action: 1 Major
+  range: Melee Weapon
+  target: 1 creature
+  attack: STR vs. AC
+  hit:
+    damage: WPN + STR
+    push: 5'
+    maneuver: 5' toward
+- name: Interpose
+  keywords: Martial, Deed, Utility
+  level: 1
+  rarity: Common
+  action: 1 Reaction
+  range: Nearby
+  trigger: Nearby ally hit by an attack.
+  effect: You suffer the hit instead of that ally.
+...

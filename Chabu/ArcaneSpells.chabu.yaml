@@ -1,0 +1,20 @@
+---
+power:
+- name: Shield
+  keywords: Arcane, Spell, Implement, Utility, Plasmic
+  level: 1
+  rarity: Common
+  action: 1 Major or 1 Reaction (Interrupt)
+  range: Self
+  effect: +2 Shield Bonus
+  duration: Sustain Minor
+  fluff: Shield creates an invisible plasmic shield that hovers in front of you. Additionally it negates magic missile attacks directed at you.
+- name: Plasmic Darts
+  keywords: Arcane, Spell, Implement, Attack, Plasmic
+  level: 0
+  rarity: Common
+  action: 1 Major
+  range: 50'
+  target: 1 Creature
+  damage: 1 + ATTR plasmic
+...

@@ -1,0 +1,27 @@
+skills {
+  Athletics `Str`
+
+  Endurance `Con`
+
+  Acrobatics `Dex`
+  Stealth `Dex`
+  Thievery `Dex`
+
+  Arcana `Int`
+  History `Int`
+  Nature `Int`
+  Religion `Int`
+  Technology `Int`
+
+  Dungeoneering `Wis`
+  Insight `Wis`
+  Medicine `Wis` `or Heal`
+  Perception `Wis`
+  Survival `Wis`
+
+  Bluff `Cha` `or Deception`
+  Diplomacy `Cha` `or Persuasion`
+  Intimidate `Cha`
+  Performance `Cha`
+  Streetwise `Cha`
+}

@@ -1,0 +1,26 @@
+class `Shaman` role=`Leader` source=`Primal` {
+  hitdie `d8`
+  hp starting=`8+Constitution` perlevel=`5`
+  recovery 4
+  alignment `any`
+  skills `Arcana` `Athletics` `Endurance` `Nature` `Medicine` `Insight` `Perception` `Religion` `Survival`
+  proficiencies {
+    weapon `simple` `longspear`
+    armor `light` `medium`
+    implement `totem`
+    tool
+    skill `Nature`
+    skill 3
+  }
+
+  features {
+    `Companion Spirit`
+  }
+  talents {
+
+  }
+}
+
+`Companion Spirit`=`Heaven` {
+
+}

@@ -1,0 +1,92 @@
+---
+- class: Shaman
+  role: Leader
+  source: Primal
+  hit die: d8
+  recoveries: 4
+  alignment: Any
+  skills:
+  - Arcana
+  - Athletics
+  - Endurance
+  - Nature
+  - Medicine
+  - Insight
+  - Perception
+  - Religion
+  - Survival
+  features:
+  - name: Companion Spirit
+  at-will powers:
+  - Burning Hands
+  - Primal Spells
+  encounter powers:
+  - Companion Spirit Hexes
+  # - Shaman Hexes
+  # - Primal Spells
+  daily powers:
+  - Primal Spells
+  utility powers:
+  - Skill Powers
+  - Primal Spells
+- feature: Battle Spirit
+  option for: Companion Spirit
+  fluff: A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of battle always seems to cling to her body. When she calls upon one of this spirit's abilities, she grows in stature---becoming taller and more muscular, with a grimace of rage stretching across her face.
+  additional encounter hexes:
+  granted spells:
+  - Enlarge Person
+- spell: Enlarge Person
+  keywords: [Implement, Polymorph, Primal, Transmutation, Utility]
+  level: 1
+  action: Major
+  range: 25'
+  target: 1 creature
+  effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+- spell: Fireball
+  keywords: [Arcane, Area, Attack, Evocation, Implement, Sphere, Thermal]
+  level: 3/5/7/9
+  action: 1 Major
+  range: 20'-diameter sphere within 100'
+  target: each creature in area
+  attack: INT vs. Reflex
+  hit: 3d6/4d6/5d6/6d6 + INT thermal damage
+
+  hit: 6d6 + INT thermal damage
+  hit at 4: 7d6 + INT thermal damage
+  hit at level 4: 7d6 + INT thermal damage
+  at higher levels:
+  - fluff: When cast at a higher level than 3rd, the damage increases by 1d6 per level.
+  - level: 4
+    hit: 7d6 + INT thermal damage
+  - level: 5
+    hit: 8d6 + INT thermal damage
+  - level: 6
+    hit: 9d6 + INT thermal damage
+...
+
+# class `Shaman` role=`Leader` source=`Primal` {
+#   hitdie `d8`
+#   hp starting=`8+Constitution` perlevel=`5`
+#   recovery 4
+#   alignment `any`
+#   skills `Arcana` `Athletics` `Endurance` `Nature` `Medicine` `Insight` `Perception` `Religion` `Survival`
+#   proficiencies {
+#     weapon `simple` `longspear`
+#     armor `light` `medium`
+#     implement `totem`
+#     tool
+#     skill `Nature`
+#     skill 3
+#   }
+
+#   features {
+#     `Companion Spirit`
+#   }
+#   talents {
+
+#   }
+# }
+
+# `Companion Spirit`=`Heaven` {
+
+# }

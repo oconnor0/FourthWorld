@@ -1,0 +1,45 @@
+---
+keyword:
+- name: Summon
+  rules:
+  - create Create in Space in Range
+  - HP equal to your Winded value (half your max)
+  - Defenses equal to yours (without temporary modifiers) - 1
+power:
+- name: Acid Arrow
+  fluff: An arrow of acid springs from your hand and speeds to its target.
+  keywords: Primal, Evocation, Chemical, Implement, Attack
+  level: 2/3/4/5
+  rarity: Common
+  action: 1 Major
+  range: 100'
+  target: 1 creature
+  attack: ATTR vs. Reflex
+  # hit: 4d4/5d4/6d4/7d4 chemical damage and ongoing 5/6/7/8 chemical damage (save ends).
+  hit:
+    damage: 4d4/5d4/6d4/7d4 + ATTR chemical
+    ongoing: 5/6/7/8 chemical (save ends)
+  miss:
+    damage: half
+    ongoing: 2/3/3/4 chemical (save ends)
+- name: Enlarge Person
+  keywords: Primal, Evocation, Implement, Polymorph, Transmutation, Utility
+  level: 1
+  rarity: Common
+  action: 1 Major
+  range: 25'
+  target: 1 creature
+  effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+- name: Fireball
+  keywords: Primal, Evocation, Thermal, Implement, Area, Attack
+  level: 3/5/7/9
+  rarity: Common
+  action: 1 Major
+  range: 20'-diameter sphere within 100'
+  target: each creature in area
+  attack: ATTR vs. Reflex
+  hit:
+    damage: 3d6/4d6/5d6/6d6 + INT thermal
+  miss:
+    damage: half
+...

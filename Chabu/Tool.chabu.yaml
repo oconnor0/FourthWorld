@@ -1,0 +1,50 @@
+---
+keyword:
+- name: Artisan's tools
+  fluff: These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+- name: Gaming set
+  fluff: This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-­Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.
+- name: Musical instrument
+  fluff: Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.
+tool:
+  - name: Alchemist's supplies
+    keyword: Artisan's tools, Tool
+    cost: 50 gp
+    load: 2 (8 lb)
+  - name: Brewer's supplies 20 gp 9 lb.
+  - name: Calligrapher's supplies 10 gp 5 lb.
+  - name: Carpenter's tools 8 gp 6 lb.
+  - name: Cartographer's tools 15 gp 6 lb.
+  - name: Cobbler's tools 5 gp 5 lb.
+  - name: Cook's utensils 1 gp 8 lb.
+  - name: Glassblower's tools 30 gp 5 lb.
+  - name: Jeweler's tools 25 gp 2 lb.
+  - name: Leatherworker's tools 5 gp 5 lb.
+  - name: Mason's tools 10 gp 8 lb.
+  - name: Painter's supplies 10 gp 5 lb.
+  - name: Potter's tools 10 gp 3 lb.
+  - name: Smith's tools 20 gp 8 lb.
+  - name: Tinker's tools 50 gp 10 lb.
+  - name: Weaver's tools 1 gp 5 lb.
+  - name: Woodcarver's tools 1 gp 5 lb.
+  - name: Disguise kit 25 gp 3 lb.
+  - name: Forgery kit 15 gp 5 lb.
+  - name: Dice set 1 sp —
+  - name: Playing card set 5 sp —
+  - name: Herbalism kit 5 gp 3 lb.
+  - name: Musical instrument
+  - name: Bagpipes 30 gp 6 lb.
+  - name: Drum 6 gp 3 lb.
+  - name: Dulcimer 25 gp 10 lb.
+  - name: Flute 2 gp 1 lb.
+  - name: Lute 35 gp 2 lb.
+  - name: Lyre 30 gp 2 lb.
+  - name: Horn 3 gp 2 lb.
+  - name: Pan flute 12 gp 2 lb.
+  - name: Shawm 2 gp 1 lb.
+  - name: Viol 30 gp 1 lb.
+  - name: Navigator's tools 25 gp 2 lb.
+  - name: Poisoner's kit 50 gp 2 lb.
+  - name: Thieves'tools 25 gp 1 lb.
+  - name: Vehicles (land or water)
+...

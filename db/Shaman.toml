@@ -1,0 +1,21 @@
+
+[class.Shaman]
+role = "Leader"
+source = "Primal"
+"hit die" = "d8"
+alignment = "Any"
+
+[[class.Shaman.feature]]
+name = "Companion Spirit"
+fluff = "You gain a companion spirit."
+
+[[class.Shaman.feature]]
+name = "Primal Spellcasting"
+
+[[class.Shaman.feature."Companion Spirit"]]
+name = "Battle"
+fluff = "A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of battle always seems to cling to her body. When she calls upon one of this spirit's abilities, she grows in stature---becoming taller and more muscular, with a grimace of rage stretching across her face."
+
+[[class.Shaman.feature."Companion Spirit"]]
+name = "Heavens"
+fluff = "A shaman who selects the heavens spirit has eyes that sparkle like starlight, giving her an aura of otherworldliness. When she calls upon one of this spirit's abilities, her eyes turn pitch black and the colors around her drain for a brief moment."

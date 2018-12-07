@@ -14,6 +14,7 @@
 
 
 |               | Kinetic | Psychic | Temporal | Plasmic | Glacial | Thermal | Radiant | Electrical | Entropic | Chemical |
+|---------------|---------|---------|----------|---------|---------|---------|---------|------------|----------|----------|
 | Arcane        |         |         | 1        | 1       |         |         | 1       |            | 1        |          |
 | Divine        |         |         |          |         |         |         |         |            |          |          |
 | Martial       | 1       |         |          |         |         |         |         |            |          |          |

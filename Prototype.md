@@ -10,16 +10,16 @@ Tactical combat, gamist approach, based on D&D, PF, and 13A:
 
 Make complexity orthogonal to class rather than tied to it. This would allow a simple fighter build that basically attacks each turn and a complex fighter build that has feats, exploits, and maneuvers that give substantial options. It would also allow for a simple or a complex wizard.
 
-When expert, proficiency bonus = Level + 1
-When trained, proficiency bonus = Level
-When untrained, proficiency bonus = Level / 2 (round down)
-Attribute bonus = either normal +1 for 12-13, +2 for 14-15, etc.
+- When expert, proficiency bonus = Level + 1
+- When trained, proficiency bonus = Level
+- When untrained, proficiency bonus = Level / 2 (round down)
+- Attribute bonus = either normal +1 for 12-13, +2 for 14-15, etc.
   or try +d4 for 12-13, +d6 for 14-15, ..., +d12 for 20.
 
-At-Will
-Encounter
-Daily
-Utility
+- At-Will
+- Encounter
+- Daily
+- Utility
 
 Either specific numbers of each you can use - like 3 encounter powers (and can choose any you have) -or- have 3 different encounter powers that can each be used once.
 
@@ -104,46 +104,51 @@ Does each set of powers have a single key ability score?
     - Witch
     - Wizard
 
-Features are given.
-Talents are chosen.
-Feats are chosen.
 
-Cleric Prayers
-Fighter Exploits, Feats, Maneuvers
-Rogue Tricks
-Wizard Spells
+- Naming 
+  - Features are given.
+  - Talents are chosen.
+  - Feats are chosen.
 
-What about:
-    d20 + ability score die + skill die + magic item die + buff die
-    so 18-19 is d10, skill may be d6, magic item may be d4, with a d8 buff
+- Power types
+  - Cleric Prayers
+  - Fighter Exploits, Feats, Maneuvers
+  - Rogue Tricks
+  - Wizard Spells
 
-    for d20 + d10 + d8 + d6 + d4
-    vs d20 + 5 + 3 + 2 + 4
+- What about:
+    - d20 + ability score die + skill die + magic item die + buff die
+      so 18-19 is d10, skill may be d6, magic item may be d4, with a d8 buff
 
-Defense
-Offense
-Control
-Support
+    - for d20 + d10 + d8 + d6 + d4
+      vs d20 + 5 + 3 + 2 + 4
 
-Mortal
-Hero
-...
-...
-Ascension
-Apotheosis
+- Defense
+- Offense
+- Control
+- Support
 
-Utilities are Daily?
+- Mortal
+- Hero
+- ...
+- ...
+- Ascension
+- Apotheosis
 
-Make Ability Checks for things you aren't proficient in at disadvantage?
+- Utilities are Daily?
 
-2 Actions + 1 Reaction?
-- Hasted: +1 Action or +1 Reaction
-- Slowed: -2 Actions; or -1 Action and -1 Reaction, no Reactions; cancels Hasted-ish
-- Stunned: -2 Actions, -1 Reaction; overrides Hasted
-- Flat-footed: -2 penalty to AC and Reflex
-- Winded: at or below half HP
-- Recovery: spend to regain HP equal to your Recovery Amount/Value
-- Recovery Amount/Value: a quarter of your max HP
+- Make Ability Checks for things you aren't proficient in at disadvantage?
+
+- In combat: 2 Actions + 1 Reaction?
+- Conditions
+  - Hasted: +1 Action or +1 Reaction
+  - Slowed: -2 Actions; or -1 Action and -1 Reaction, no Reactions; cancels Hasted-ish
+  - Stunned: -2 Actions, -1 Reaction; overrides Hasted
+  - Flat-footed: -2 penalty to AC and Reflex
+  - Winded: at or below half HP
+  - Recovery: spend to regain HP equal to your Recovery Amount/Value
+  - Recovery Amount/Value: a quarter of your max HP
 
 Remove Perception for Gumshoe core clues?
+
 Only attack once per turn.
